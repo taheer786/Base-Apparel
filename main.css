@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo {
+    margin: 25px;
+    height: 20px;
+    width: 90px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  /* content */
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5rem;
+    line-height: 2.2rem;
+    font-size: 2rem;
+  }
+  
+  .we-are {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+  }
+  
+  section p {
+    text-align: center;
+    max-width: 85%;
+    margin: 0 auto;
+    line-height: 1.3rem;
+    margin-bottom: 20px;
+    color: hsl(0, 36%, 70%);
+  }
