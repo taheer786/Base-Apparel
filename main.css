@@ -2,6 +2,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+html{
+  font-size: 16px;
+ font-family: "Josefin Sans", sans-serif;
+}
 .logo {
     margin: 25px;
     height: 20px;
@@ -11,6 +15,7 @@
   .hero-image {
     width: 100%;
     object-fit: contain;
+    max-width: 100%;
   }
   
   /* content */
@@ -24,16 +29,37 @@
     font-size: 2rem;
   }
   
-  .we-are {
-    font-weight: 300;
+  .we-re{
+    font-weight: 200;
     color: hsl(0, 36%, 70%);
   }
   
   section p {
     text-align: center;
     max-width: 85%;
-    margin: 0 auto;
-    line-height: 1.3rem;
-    margin-bottom: 20px;
-    color: hsl(0, 36%, 70%);
+    margin: 0rem auto;
+   color: hsl(0, 35%, 67%);
+   line-height: 1.3rem;
+   margin-bottom: 20px;
+  }
+  form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px ;
+
+  }
+  .email{
+    width:65%;
+    padding: 10px 20px;
+    height: 40px;
+    text-align: center;
+    border-radius: 1.2rem;
+    border: 0.8px solid hsla(0, 19%, 60%, 0.652);
+  }
+  .btn{
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 1.5rem;
+    padding-left:10px 20px;
+    margin-left: -28px;
   }
